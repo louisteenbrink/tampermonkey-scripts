@@ -1,7 +1,9 @@
 // ==UserScript==
 // @name         Warn on github if hotfix not on master
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @updateURL    https://raw.githubusercontent.com/Spendesk/tampermonkey-scripts/master/scripts/warn-on-github-if-hotfix-not-on-master.js
+// @downloadURL  https://raw.githubusercontent.com/Spendesk/tampermonkey-scripts/master/scripts/warn-on-github-if-hotfix-not-on-master.js
+// @version      0.2
 // @description  try to take over the world!
 // @author       Spendesk
 // @match        *github.com/*

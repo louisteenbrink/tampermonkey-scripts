@@ -19,3 +19,9 @@ Then, in the extension's options page (on Chrome this is accessible by right-cli
 Create a new custom user script directly in the Tampermonkey options, paste an existing one in the editor and start hacking. You can check if it works correctly by visiting a page where your script is supposed to run and reload that page every time you save a change.
 
 Once you're satisfied, simply copy your code and paste it in a new file in the `scripts/` directory of this repository and add an example screenshot of what the script does in the `screenshots/` folder (if applicable), then create a Pull Request on GitHub 🤓
+
+### How to make the script auto-update?
+
+That's pretty simple. Your script needs `// @updateURL` and `// @downloadURL` headers. The values will both be the url of the raw script, being `https://raw.githubusercontent.com/Spendesk/tampermonkey-scripts/master/scripts/name-of-your-script.js`
+
+You need to be careful that you update the `// @version` each time you update your script, or it won't be auto-updated.
