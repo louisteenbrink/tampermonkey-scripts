@@ -25,3 +25,9 @@ Once you're satisfied, simply copy your code and paste it in a new file in the `
 That's pretty simple. Your script needs `// @updateURL` and `// @downloadURL` headers. The values will both be the url of the raw script, being `https://raw.githubusercontent.com/Spendesk/tampermonkey-scripts/master/scripts/name-of-your-script.js`
 
 You need to be careful that you update the `// @version` each time you update your script, or it won't be auto-updated.
+
+## License
+
+The content of this repository is licensed under MIT.
+
+Copyright (c) 2019 Spendesk
