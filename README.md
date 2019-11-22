@@ -12,7 +12,15 @@ Get the Tampermonkey extension for your browser:
 - [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo/)
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 
-Then, in the extension's options page (on Chrome this is accessible by right-clicking on the icon of the extension in the toolbar), click on the __+__ button and paste the script you want to use. You can do that multiple times to add different scripts.
+Then click the extensions's options page on the topbar of your browser:
+
+![Screenshot](https://raw.githubusercontent.com/Spendesk/tampermonkey-scripts/master/screenshots/tampermonkey-in-topbar.png)
+
+Click on the ➕ button to add a new script
+
+![Screenshot](https://raw.githubusercontent.com/Spendesk/tampermonkey-scripts/master/screenshots/tampermonkey-add-new-script.png)
+
+And paste the script you want to use, then hit ` + S` to save it. You can do that multiple times to add different scripts.
 
 ## Contributing
 
